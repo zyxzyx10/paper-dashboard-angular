@@ -3,10 +3,11 @@
   <div class="col-md-12">
     <div class="card ">
       <div class="card-header ">
-        Google Maps
+        Upload Your Work
       </div>
       <div class="card-body ">
-        <div id="map" class="map"></div>
+<!--        <div id="map" class="map"></div>-->
+        <input type="file" class="file-input" (change)="onChange($event)" #fileUpload />
       </div>
     </div>
   </div>
